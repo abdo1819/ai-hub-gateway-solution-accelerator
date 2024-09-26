@@ -104,7 +104,7 @@ resource functionAppSiteConfig 'Microsoft.Web/sites/config@2023-12-01' = {
     scmMinTlsVersion: '1.2'
     minimumElasticInstanceCount: 1
     publicNetworkAccess: 'Enabled'  
-    functionsRuntimeScaleMonitoringEnabled: true
+    functionsRuntimeScaleMonitoringEnabled: false
     netFrameworkVersion: dotnetFrameworkVersion
     preWarmedInstanceCount: 1
     cors: {
