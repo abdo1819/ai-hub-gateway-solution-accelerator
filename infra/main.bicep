@@ -253,13 +253,13 @@ param aiSearchInstances array = [
 param openAiSkuName string = 'S0'
 
 @description('Version of the Chat GPT model.')
-param chatGptModelVersion string = '0613'
-
+param chatGptModelVersion string = '2024-07-18'
+// 2024-05-13
 @description('Name of the Chat GPT deployment.')
 param chatGptDeploymentName string = 'chat'
 
 @description('Name of the Chat GPT model.')
-param chatGptModelName string = 'gpt-35-turbo'
+param chatGptModelName string = 'gpt-4o-mini'
 
 @description('Name of the embedding model.')
 param embeddingGptModelName string = 'text-embedding-ada-002'
